@@ -1,74 +1,55 @@
-<<<<<<< HEAD
-# Subscription-Tracker
-=======
-# Getting Started with Create React App
+# Subscription Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The **Subscription Tracker** is a free and easy-to-use web application that helps users manage their subscriptions effectively. The app allows users to track upcoming payments, receive notifications, and analyze spending on subscriptions.
 
-## Available Scripts
+## Features
+- **Subscription Management**: Add, edit, and delete subscription details.
+- **Payment Reminders**: Get notifications before a payment is due.
+- **Spending Insights**: View analytics on your subscription expenses.
+- **Customizable Categories**: Organize subscriptions based on type.
+- **Secure and Private**: Ensures data confidentiality with encryption.
+- **Responsive Design**: Works seamlessly on desktop and mobile devices.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript (React.js)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB/Firebase (For storing subscription data)
+- **Notification Service**: Twilio/SendGrid for SMS and email reminders
 
-### `npm start`
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Michaeluwakz/Subscription-Tracker.git
+   cd Subscription-Tracker
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   npm start
+   ```
+4. Open your browser and visit `http://localhost:3000/`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+1. Create an account or log in.
+2. Add your subscriptions with billing cycle and payment details.
+3. Enable reminders to receive alerts before due dates.
+4. View spending insights and manage subscriptions efficiently.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+Contributions are welcome! Follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add feature'`).
+4. Push to your branch (`git push origin feature-name`).
+5. Open a pull request.
 
-### `npm test`
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contact
+For any questions or feedback, reach out via [your email] or open an issue in the repository.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> d53dd87 (Added local README.md)
